@@ -5,7 +5,7 @@
     min = 1;
     max = 8;
     particles = 200;
-    colors = ["121, 87, 142", "255, 255, 255", "178, 197, 235", "234, 217, 250"];
+    colors = ["121, 87, 142", "255, 255, 255", "178, 197, 235", "193, 169, 205"];
 
     rand = function(a, b) {
         return Math.random() * (b - a) + a;
@@ -20,7 +20,7 @@
             this.color = colors[~~(Math.random() * colors.length)];
             this.radius = rand(min, max);
             this.x = rand(0, canvas.width);
-            this.y = rand(-20, canvas.height * 0.8);
+            this.y = rand(-20, canvas.height * 0.7);
             this.vx = -5 + Math.random() * 10;
             this.vy = 0.7 * this.radius;
             this.valpha = rand(0.02, 0.09);
