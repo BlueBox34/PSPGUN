@@ -11,6 +11,7 @@ body {
 
 .bgimage {
     width: 800px;
+    z-index: -1;
 }
 
 button {
@@ -38,6 +39,7 @@ button {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    position: absolute;
 }
 
 .bg-text {
@@ -51,4 +53,12 @@ h1 {
     text-align: center;
     letter-spacing: 3px;
     text-shadow: 2px 2px #FFFFFF;
+}
+
+canvas {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    margin: 0;
+    padding: 0;
 }
