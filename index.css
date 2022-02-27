@@ -3,6 +3,7 @@
 body {
     background-color: #ead9fa;
     height: 80vh;
+    width: 100vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -34,12 +35,14 @@ button {
     transition: 0.3s;
 }
 
-:active button {
+:active button:focus {
     background-color: #44215a;
 }
 
 .container {
-    display: inherit;
+    width: 100vw;
+    overflow: hidden;
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -50,9 +53,47 @@ button {
     width: 500px;
 }
 
+.reblur {
+    animation: reblur 500ms;
+}
+
+@keyframes reblur {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+.blur-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    text-transform: uppercase;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    backdrop-filter: blur(2px);
+    z-index: 999999999999999;
+    background-color: #c0c0c05e;
+}
+
+.blur-content p1 {
+    color: #FFFFFF;
+    margin-bottom: 20%;
+}
+
+.blur-content h1 {
+    color: #FFFFFF;
+    text-shadow: 2px 2px 0px #000;
+    margin-bottom: 20px;
+}
+
 h1 {
     font-family: 'Roboto Slab', serif;
-    border: 3px solid #f1f1f1;
     color: black;
     text-align: center;
     letter-spacing: 3px;
@@ -69,4 +110,20 @@ canvas {
 
 #bot {
     width: 100vw;
+    position: absolute;
+    bottom: 0;
 }
+
+@media (max-width: 575.98px) {
+    .bg-text {
+        width: 200px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {}
+
+@media (min-width: 768px) and (max-width: 991.98px) {}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {}
+
+@media (min-width: 1200px) {}
