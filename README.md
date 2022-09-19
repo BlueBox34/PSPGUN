@@ -8,7 +8,7 @@
 
 [![PspGun GitHub stats](https://github-readme-stats.vercel.app/api?username=PspGun&show_icons=true&theme=material-palenight&count_private=true)]()
 
-[![Steak stats](https://github-readme-streak-stats.herokuapp.com/?user=PspGun&theme=material-palenight)]()
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=PspGun&layout=compact&theme=material-palenight&layout=compact&langs_count=7)]()
 
 # My Life in a Day!🎧
 
