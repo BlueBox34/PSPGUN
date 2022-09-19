@@ -6,7 +6,7 @@
 
 ![Github Stat](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=BlueBox34&theme=dracula)
 
-[![Bluebox34 GitHub stats](https://github-readme-stats.vercel.app/api?username=Bluebox34&show_icons=true&theme=material-palenight&count_private=true)]()
+[![PspGun GitHub stats](https://github-readme-stats.vercel.app/api?username=PspGun&show_icons=true&theme=material-palenight&count_private=true)]()
 
 # My Life in a Day!🎧
 
